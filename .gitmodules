@@ -1,0 +1,3 @@
+[submodule "hbase"]
+	path = hbase
+	url = https://github.com/VertiPub/hbase.git
