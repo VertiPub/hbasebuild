@@ -1,6 +1,6 @@
 #!/bin/sh -ex
 export RPM_VERSION=0.1.0
-export RPM_NAME=`echo vcc-hbase-${ARTIFACT_VERSION}`
+export RPM_NAME=vcc-hbase-${ARTIFACT_VERSION}
 echo "Building Flume Version RPM ${RPM_NAME} with RPM version ${RPM_VERSION}-${DATE_STRING}"
 
 
