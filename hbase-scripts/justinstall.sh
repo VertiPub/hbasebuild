@@ -8,7 +8,7 @@ export RPM_BUILD_DIR=${INSTALL_DIR}/opt
 mkdir --mode=0755 -p ${RPM_BUILD_DIR}
 cd ${RPM_BUILD_DIR}
 # this will break until I know where hte tarball lives
-#tar -xvzpf ${WORKSPACE}/hbase/hbase-ng-dist/target/hbase-${ARTIFACT_VERSION}.tar.gz
+tar -xvzpf ${WORKSPACE}/hbase/target/hbase-${ARTIFACT_VERSION}.tar.gz
 
 cd ${RPM_DIR}
 fpm --verbose \
